@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+
+<body>
+    <div>
+        <form action="">
+            <div class="f1">
+                <h1>Formulario</h1>
+            <div class="nome">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required placeholder="Digite seu nome...">
+            </div>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required placeholder="Digite seu email...">
+            </div>
+            <div class="data">
+                <label for=" data">Data de Nascimento:</label>
+                <input type="data" id="data" required placeholder="Ex.: 01/01/2001">
+            </div>
+            <div class="senha">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" placeholder="Digite uma senha">
+                <input type="password" id="senha" placeholder="Confirme a senha">
+            </div>
+            <div class="CEP">
+                <strong>Onde você mora?</strong>
+                <div>
+                    <input type="radio" id="cep1" name="cep">
+                    <label for="cep1">São Paulo</label>
+                </div>
+                <div>
+                    <input type="radio" id="cep2" name="cep">
+                    <label for="cep2">Rio de Janeiro</label>
+                </div>
+                <input type="radio" id="cep3" name="cep">
+                <label for="cep3">Brasilia</label>
+                <div>
+                    <input type="radio" id="cep4" name="cep">
+                    <label for="cep4">Salvador</label>
+                </div>
+                <div>
+                    <input type="radio" id="cep5" name="cep">
+                    <label for="cep5">Belo Horizonte</label>
+                </div>
+            </div>
+            <div>
+                <div class="comida">
+                    <strong>Oque você prefere?</strong>
+                    <div>
+                        <input type="checkbox" id="comida1" name="comida">
+                        <label for="comida1">Feijoada</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="comida2" name="comida">
+                        <label for="comida2">Pão de queijo</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="comida3" name="comida">
+                        <label for="comida3">Tapioca</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="comida4" name="comida">
+                        <label for="comida4">Bolo de Fuba</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="comida5" name="comida">
+                        <label for="comida5">Arroz com Pequi</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="tamanho">Escolha um tamanho de roupa</label>
+                        <select name="" id="tamanho">
+                            <option disabled selected>Selecionar...</option>
+                            <option value="p">P</option>
+                            <option value="m">M</option>
+                            <option value="g">G</option>
+                            <option value="gg">GG</option>
+                        </select>
+                    
+                </div>
+                <button>Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Roboto', 'Open Sans',sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+}
+
+.nome label, .email label, .data label, .senha label {
+    font-family: 'Roboto';
+    display: block;
+    margin-bottom: 0.1rem;
+  }
+  
+  .nome input, .email input, .data input, .senha input {
+    display: block;
+    margin-top: 0.3rem;
+    margin-bottom: 10px;
+    width: 30rem;
+    height: 3rem;
+    border-radius: 7px;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+  }
+
+  password-input {
+    background-image: url('eye-open.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 30px; /* Espaço para o ícone */
+  }
+  
+  .password-input.show-password {
+    background-image: url('eye-closed.png');
+  }
+
+
+.f1{
+    background-color: #c6c6c6;
+    border-radius: 40px;
+    padding: 40px;
+}
+h1{
+    padding-bottom: 40px;
+}
+
