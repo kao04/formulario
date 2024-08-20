@@ -38,14 +38,13 @@ body {
   }
 
   password-input {
-    background-image: url('eye-open.png');
+    background-image: url('/img/aberto.png');
     background-repeat: no-repeat;
     background-position: right center;
-    padding-right: 30px; /* Espaço para o ícone */
   }
   
   .password-input.show-password {
-    background-image: url('eye-closed.png');
+    background-image: url('/img/fechado.png');
   }
 
 
