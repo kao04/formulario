@@ -1,95 +1,103 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Inter', 'Roboto', 'Open Sans',sans-serif;
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  font-family: 'Inter', 'Roboto', 'Open Sans', sans-serif;
 }
 
 :root {
-    font-size: 62.5%;
+  font-size: 62.5%;
 
 }
 
 body {
-    font-size: 1.6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100svh;
-}
-
-.nome label, .email label, .data label, .senha label {
-    font-family: 'Roboto';
-    display: block;
-    margin-bottom: 0.1rem;
-  }
-  
-  .nome input, .email input, .data input, .senha input {
-    display: block;
-    margin-top: 0.3rem;
-    margin-bottom: 10px;
-    width: 30rem;
-    height: 3rem;
-    border-radius: 7px;
-    font-size: 1.4rem;
-    border: none;
-    outline: none;
-    padding: 0.7rem;
-  }
-
-  password-input {
-    background-image: url('/img/aberto.png');
-    background-repeat: no-repeat;
-    background-position: right center;
-  }
-  
-  .password-input.show-password {
-    background-image: url('/img/fechado.png');
-  }
-
-
-.f1{
-    background-color: #c6c6c6;
-    border-radius: 40px;
-    padding: 40px;
-    justify-content: center;
-    align-items: center;
-
-}
-h1{
-    padding-bottom: 40px;
-}
-
-button{
-  font-family: 'Roboto';
-  font-size: 1.4rem;
-  margin-top: 15px;
-  width: 20rem;
-  height: 3rem;
-  padding: 5px 15px;
-  border-radius: 10px;
-  border:none;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content:center;
-  transition: all ease-in-out 0.25s;
+  height: 100svh;
 }
 
-.f1 button:hover{
-  color: #ebebeb ;
-    background-color: #525252 ;
-    cursor: pointer;
+.f1 {
+  background-color: #c6c6c6;
+  border-radius: 4rem;
+  padding: 4rem;
+  justify-content: center;
+  align-items: center;
 }
-.f1 button:focus{
-  color: #a9a9a9 ;
-    background-color: #a9a9a9;
+
+h1 {
+  padding-bottom: 4rem;
 }
-.tamanho{
+
+.nome label,
+.email label,
+.data label,
+.senha label {
+  font-family: 'Roboto';
   display: block;
-
+  margin-bottom: 0.1rem;
 }
-.tamanho select{
+
+.nome input,
+.email input,
+.data input,
+.senha input {
+  display: block;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  width: 30rem;
+  height: 3rem;
+  border-radius: 7px;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  padding: 0.7rem;
+}
+
+.comida input:checkbox:checked{
+  color:aquamarine;
+}
+
+.tamanho {
+  display: block;
+}
+
+.tamanho select {
   border: none;
   outline: none;
   padding: 0.5rem;
   font-size: 1.4rem;
+  transition: all ease-in-out 0.25s;
+}
+
+.f1 select:hover {
+  color: #ebebeb;
+  background-color: #525252;
+  cursor: pointer;
+}
+
+button {
+  font-family: 'Roboto';
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  width: 20rem;
+  height: 3rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 0.25s;
+}
+
+.f1 button:hover {
+  color: #ebebeb;
+  background-color: #525252;
+  cursor: pointer;
+}
+
+.f1 button:focus {
+  color: #a9a9a9;
+  background-color: #a9a9a9;
 }
