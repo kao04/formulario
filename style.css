@@ -52,8 +52,44 @@ body {
     background-color: #c6c6c6;
     border-radius: 40px;
     padding: 40px;
+    justify-content: center;
+    align-items: center;
+
 }
 h1{
     padding-bottom: 40px;
 }
 
+button{
+  font-family: 'Roboto';
+  font-size: 1.4rem;
+  margin-top: 15px;
+  width: 20rem;
+  height: 3rem;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border:none;
+  align-items: center;
+  justify-content:center;
+  transition: all ease-in-out 0.25s;
+}
+
+.f1 button:hover{
+  color: #ebebeb ;
+    background-color: #525252 ;
+    cursor: pointer;
+}
+.f1 button:focus{
+  color: #a9a9a9 ;
+    background-color: #a9a9a9;
+}
+.tamanho{
+  display: block;
+
+}
+.tamanho select{
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
